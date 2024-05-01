@@ -1,19 +1,18 @@
-/* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     margin: auto;
-    overflow: hidden; /* Ensure images don't overflow */
+    overflow: hidden; 
     position: relative;
 }
 
-/* Hide the images by default */
+
 .image {
     display: none;
 }
 
-/* Fade animation */
+
 .fade {
-    animation: fade 2s; /* Use shorthand for animation */
+    animation: fade 2s; 
 }
 
 @keyframes fade {
